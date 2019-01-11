@@ -11,10 +11,10 @@ class Entry {
     }
 
     static String generateHeader(){
-        return "FIELD,ANOTHER_FIELD";
+        return "FIELD,ANOTHER_FIELD\n";
     }
 
     String generateRow(){
-        return this.field + ',' + this.anotherField;
+        return this.field + ',' + this.anotherField + "\n";
     }
 }
